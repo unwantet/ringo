@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__wrapper">
+            <img class="logo" src="./static/svg/logo.svg" alt="Logo" />
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="">Напрямки</a>
+              </li>
+              <li class="nav__item">Про компанію</li>
+              <li class="nav__item">Переваги</li>
+              <li class="nav__item">Етапи роботи</li>
+            </ul>
+            <div class="nav__right">
+              <div>
+                <a class="nav__link" href="#">
+                  <svg
+                    class="instagram"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M20.9469 8.305C20.9369 7.54762 20.7951 6.79777 20.5279 6.089C20.2963 5.49115 19.9425 4.9482 19.4891 4.49483C19.0358 4.04146 18.4928 3.68765 17.8949 3.456C17.1953 3.19336 16.4561 3.05134 15.7089 3.036C14.7469 2.993 14.4419 2.981 11.9999 2.981C9.55795 2.981 9.24495 2.981 8.28995 3.036C7.54311 3.05145 6.8043 3.19347 6.10495 3.456C5.50701 3.68749 4.96397 4.04124 4.51058 4.49463C4.05719 4.94802 3.70344 5.49106 3.47195 6.089C3.20878 6.78813 3.06707 7.52711 3.05295 8.274C3.00995 9.237 2.99695 9.542 2.99695 11.984C2.99695 14.426 2.99695 14.738 3.05295 15.694C3.06795 16.442 3.20895 17.18 3.47195 17.881C3.70383 18.4788 4.05784 19.0216 4.51138 19.4748C4.96492 19.928 5.50801 20.2816 6.10595 20.513C6.80338 20.7862 7.54232 20.9384 8.29095 20.963C9.25395 21.006 9.55895 21.019 12.0009 21.019C14.4429 21.019 14.7559 21.019 15.7109 20.963C16.4581 20.9483 17.1973 20.8066 17.8969 20.544C18.4946 20.3121 19.0375 19.9582 19.4908 19.5048C19.9441 19.0515 20.298 18.5087 20.5299 17.911C20.7929 17.211 20.9339 16.473 20.9489 15.724C20.9919 14.762 21.0049 14.457 21.0049 12.014C21.0029 9.572 21.0029 9.262 20.9469 8.305ZM11.9939 16.602C9.43995 16.602 7.37095 14.533 7.37095 11.979C7.37095 9.425 9.43995 7.356 11.9939 7.356C13.22 7.356 14.3959 7.84306 15.2629 8.71004C16.1299 9.57703 16.6169 10.7529 16.6169 11.979C16.6169 13.2051 16.1299 14.381 15.2629 15.248C14.3959 16.1149 13.22 16.602 11.9939 16.602ZM16.8009 8.263C16.6593 8.26313 16.5191 8.23534 16.3883 8.18121C16.2574 8.12708 16.1385 8.04768 16.0384 7.94755C15.9383 7.84743 15.8589 7.72854 15.8047 7.59769C15.7506 7.46684 15.7228 7.3266 15.7229 7.185C15.7229 7.0435 15.7508 6.90339 15.805 6.77266C15.8591 6.64193 15.9385 6.52315 16.0385 6.42309C16.1386 6.32304 16.2574 6.24367 16.3881 6.18952C16.5188 6.13537 16.6589 6.1075 16.8004 6.1075C16.9419 6.1075 17.0821 6.13537 17.2128 6.18952C17.3435 6.24367 17.4623 6.32304 17.5624 6.42309C17.6624 6.52315 17.7418 6.64193 17.7959 6.77266C17.8501 6.90339 17.8779 7.0435 17.8779 7.185C17.8779 7.781 17.3959 8.263 16.8009 8.263Z"
+                      fill="#AE7B3C"
+                    />
+                    <path
+                      d="M11.994 14.982C13.6525 14.982 14.997 13.6375 14.997 11.979C14.997 10.3205 13.6525 8.976 11.994 8.976C10.3355 8.976 8.99097 10.3205 8.99097 11.979C8.99097 13.6375 10.3355 14.982 11.994 14.982Z"
+                      fill="#AE7B3C"
+                    />
+                  </svg>
+                </a>
+                <a class="nav__link" href="#">
+                  <svg
+                    class="facebook"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    height="21"
+                    viewBox="0 0 10 21"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_212_157)">
+                      <path
+                        d="M2.55277 20.5746V10.9204H0V7.44441H2.55277V4.47548C2.55277 2.14247 4.0607 0 7.53529 0C8.9421 0 9.98237 0.134866 9.98237 0.134866L9.9004 3.38083C9.9004 3.38083 8.83949 3.3705 7.68178 3.3705C6.42879 3.3705 6.22804 3.94793 6.22804 4.90631V7.44441H10L9.83588 10.9204H6.22804V20.5746H2.55277Z"
+                        fill="#AE7B3C"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_212_157">
+                        <rect width="10" height="20.5746" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+              <div class="nav__small-wrapper">
+                <svg
+                  class="phone-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_212_153)">
+                    <path
+                      d="M14.6667 0.916668H7.33337C5.81629 0.916668 4.58337 2.14958 4.58337 3.66667V18.3333C4.58337 19.8504 5.81629 21.0833 7.33337 21.0833H14.6667C16.1838 21.0833 17.4167 19.8504 17.4167 18.3333V3.66667C17.4167 2.14958 16.1838 0.916668 14.6667 0.916668ZM12.8334 19.25H9.16671V18.3333H12.8334V19.25ZM15.8125 16.5H6.18754V3.66667H15.8125V16.5Z"
+                      fill="#3D4A39"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_212_153">
+                      <rect width="22" height="22" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <a class="nav__phone" href="tel:+380 67661 5415"
+                  >+380676615415</a
+                >
+              </div>
+            </div>
+            <button class="menu">
+              <img
+                src="./static/svg/hamburger_menu.svg"
+                alt="Hamburger menu icon"
+              />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+          <div  class="centering">
+              <h1>виробництво меблів</h1>
+              <p>Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+              <a class="buttons" href="#">Обговорити проект</a>
+          </div>
+          <div class="bridge">
+              <div>
+                  <a href="#">
+                      <img src="./images/left-direction.svg" alt="#">
+                  </a>
+                  <a href="#">
+                      <img src="./images/right-direction.svg" alt="#">
+                  </a>
+              </div>
+              <div>
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+              </div>
+          </div>
+      </div>
+      <div class="directly">
+          <h2 class="headingTwo">Основні напрямки</h2>
+          <div class="triple">
+              <div>
+                  <span>01</span>
+                  <p>Дизайн інтерєру</p>
+                  <img src="./images/bitmap1.png" alt="#">
+              </div>
+              <div>
+                  <span>02</span>
+                  <p>Виробництво меблів</p>
+                  <img src="./images/bitmap2.png" alt="#">
+              </div>
+              <div>
+                  <span>03</span>
+                  <p>Комплексне меблювання</p>
+                  <img src="./images/bitmap3.png" alt="#">
+              </div>
+          </div>
+      </div>
+      <div class="assuredly">
+          <h2 class="headingTwo">Ми забезпечемо вас </h2>
+          <div>
+              <img src="./images/room-wardrobe.svg" alt="#">
+              <p>Меблями</p>
+          </div>
+          <div>
+              <img src="./images/furniture.svg" alt="#">
+              <p>Освітленням</p>
+          </div>
+          <div>
+              <img src="./images/burner-oven.svg" alt="#">
+              <p>Побутовою технікою</p>
+          </div>
+          <div>
+              <img src="./images/door.svg" alt="#">
+              <p>Дверима</p>
+          </div>
+          <div>
+              <img src="./images/floor.svg" alt="#">
+              <p>Стіновими панелями та підлоговим покриттям</p>
+          </div>
+          <div>
+              <img src="./images/brainstorm.svg" alt="#">
+              <p>Проектуванням</p>
+          </div>
+      </div>
+      <div class="task">
+          <div id="bord-bott">
+              <h4>Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. </h2>
+              <div class="dual">
+                  <div>
+                      <img src="./images/pointer.svg" alt="#">
+                      <p>Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі</p>
+                  </div>
+                  <div>
+                      <img src="./images/pointer.svg" alt="#">
+                      <p>Рінго найкращий підрядник прораба, дизайнера, проект-менеджера або персональний помічник власника бізнесу, квартири чи салону</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="advantages">
+          <h2 class="headingTwo">Наші переваги</h2>
+          <img src="./images/girl-ok.png" alt="#">
+          <div class="rows">
+              <span>01</span>
+              <div>
+                  <h4>Мобільність</h4>
+                  <p>Проводимо зустрічі на об`єктах в затишних закладах Києва</p>
+              </div>
+          </div>
+          <div class="rows">
+              <span>02</span>
+              <div>
+                  <h4>Надійність</h4>
+                  <p>Система нашої роботи зосереджена на якості та термінах завершення проекту</p>
+              </div>
+          </div>
+          <div class="rows">
+              <span>03</span>
+              <div>
+                  <h4>Якість</h4>
+                  <p>Виготовляємо виключно з перевірених європейських брендів</p>
+              </div>
+          </div>
+          <div class="rows">
+              <span>04</span>
+              <div>
+                  <h4>Професіоналізм</h4>
+                  <p>Наша команда - це клуб професіоналів, об`єднаних в одній компанії</p>
+              </div>
+          </div>
+          <div class="rows">
+              <span>05</span>
+              <div>
+                  <h4>Вигідність </h4>
+                  <p>Ми відмовились від шоу-руму та офісу на користь вартості та мобільності</p>
+              </div>
+          </div>
+      </div>
+      <div class="discuss">
+          <div class="container">
+            <div class="disscuss__sec">              
+              <div class="forma">
+                <h2 class="headingTwo">Обговоримо ваш проект?</h2>
+                <div>
+                  <p>Заповніть форму і найближчим часом ми зв'яжемося з вами!</p>
+                  <form action="#">
+                    <input placeholder="Ім'я" type="text">
+                    <input placeholder="Номер телефону" type="tel">
+                    <input placeholder="Прикріпити проект" type="file">
+                    <a class="buttons" href="#">Обговорити проект</a>    
+                  </form>
+                  <div>
+                    <img src="./images/some-symbol.png" alt="#">
+                    <p >Даю згоду на оброблення персональних даних</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img src="./images/discuss-left.png" alt="#">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="steps">
+          <h2 class="headingTwo">Етапи роботи</h2>
+          <div>
+              <div>01</div>
+              <h6>Підписання договору</h6>
+              <p>Визначаємось з бюджетом, матеріалами та фурнітурою. Вносимо правки в проект, підписуємо пакет документів.</p>
+          </div>
+          <div>
+              <div>02</div>
+              <h6>Виготовлення </h6>
+              <p>Після підписання договору та визначення термінів, команда Рінго приступає до найцікавішого - виробництва!</p>
+          </div>
+          <div>
+              <div>03</div>
+              <h6>Встановлення</h6>
+              <p>По готовності виробництва  починаємо монтаж на обєкті. У домовлений час виконуємо доставку та монтаж.</p>
+          </div>
+          <div>
+              <div>04</div>
+              <h6>Новосілля</h6>
+              <p>По закінченню робимо перевірку та підписуємо акт закінчення робівт. </p>
+          </div>
+      </div>
+      <div class="atWork">
+          <h2 class="headingTwo">Зараз в роботі</h2>
+          <div>
+              <img src="./images/carusel-img1.png" alt="#">
+              <img id="control1" src="./images/carusel-left.svg" alt="#">
+              <img src="./images/carusel-img2.png" alt="#">
+              <img id="control2" src="./images/carusel-right.svg" alt="#">
+              <img src="./images/carusel-img3.png" alt="#">
+          </div>
+          <div class="atWork__bottom">
+              <h5>Квартира ЖК Медовий</h5>
+              <p>3 етап</p>
+          </div>
+      </div>
+      <div class="gifts">
+          <div class="ovalDif">
+              <div  class="gifts_box">
+                  <img src="./images/present1.png" alt="#">
+                  <div>
+                      <img src="./images/gift-icon.svg" alt="#">
+                      <p>Подарунок</p>
+                  </div>
+              </div>
+              <div class="gifts_box">
+                  <h2 class="headingTwo">Рінго роздає подарунки!</h2>
+                  <p>При замовленні до нового року, отримай цінний подарунок для свого комфорту</p>
+                  <a href="#" class="buttons">Хочу подарунок</a>
+              </div>
+              <div class="gifts_box">
+                  <img src="./images/present2.png" alt="#">
+                  <div>
+                      <img src="./images/gift-icon.svg" alt="#">
+                      <p>Подарунок</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="partners">
+          <h2 class="headingTwo">Наші партнери</h2>
+          <div>
+              <img src="./images/partner1.png" alt="#">
+          </div>
+          <div>
+              <img src="./images/partner2.png" alt="#">
+          </div>
+          <div>
+              <img src="./images/partner3.png" alt="#">
+          </div>
+          <div>
+              <img src="./images/partner4.png" alt="#">
+          </div>
+          <div>
+              <a href="#">
+                  <img src="./images/carusel-left2.svg" alt="#">
+              </a>
+              <a href="#">
+                  <img src="./images/carusel-right1.svg" alt="#">
+              </a>
+          </div>
+      </div>
+      <div class="discuss">
+          <div class="forma">
+              <h2 class="headingTwo">Залишилися питання?</h2>
+              <div>
+                  <p>Отримай безкоштовну консультацію менеджера та прорахунок проекту </p>
+                  <form action="#">
+                      <input placeholder="Ім'я" type="text">
+                      <input placeholder="Номер телефону" type="tel">
+                      <a class="buttons" href="#">Обговорити проект</a>    
+                  </form>
+                  <div>
+                      <img src="./images/some-symbol.png" alt="#">
+                      <p >Даю згоду на оброблення персональних даних</p>
+                  </div>
+              </div>
+          </div>
+          <div>
+              <img src="./images/discuss-girl.png" alt="#">
+          </div>
+      </div>
+  </main>
+  <footer>
+    <div class="footer_top">
+        <div class="tetrada">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="#">
+            </a>
+            <div>
+                <p>Соцмережі:</p>
+                <a href="https://www.instagram.com/xushnudbekpratov/">
+                    <img src="./images/instagram-icon.svg" alt="#">
+                </a>
+                <a href="#">
+                    <img src="./images/facebook-icon.svg" alt="#">
+                </a>
+            </div>
+        </div>
+        <div class="tetrada">
+            <ul>
+                <li><a href="#">Основні напрямки</a></li>
+                <li><a href="#">Про компанію</a></li>
+                <li><a href="#">Переваги</a></li>
+            </ul>
+        </div>
+        <div class="tetrada">
+            <ul>
+                <li><a href="#">Етапи роботи</a></li>
+                <li><a href="#">Зараз в роботі</a></li>
+                <li><a href="#">Стати партнером</a></li>
+            </ul>
+        </div>
+        <div class="tetrada">
+            <div>
+                <img src="./images/phone-icon.svg" alt="#">
+                <a href="#">+380 67661 5415</a>
+            </div>
+            <a href="#" id="btn" class="buttons">На каву з менеджером!</a>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <h6>Бренди комплектуючих</h6>
+        <div class="brands">
+            <a href="https://www.franke.com/">
+                <img src="./images/franke-corp.png" alt="#">
+            </a>
+            <a href="https://www.hafele.com/">
+                <img src="./images/hafele-corp.png" alt="#">
+            </a>
+            <a href="https://www.egger.com/">
+                <img src="./images/eegger-corp.png" alt="#">
+            </a>
+            <a href="https://linkensystem.com.ua/">
+                <img src="./images/linken-corp.png" alt="#">
+            </a>
+            <a href="https://inoxa.it/">
+                <img src="./images/inoxa.png" alt="#">
+            </a>
+            <a href="https://www.swisspan.ua/">
+                <img src="./images/swisspan.png" alt="#">
+            </a>
+            <a href="https://www.cleaf.it/">
+                <img src="./images/cleaf.png" alt="#">
+            </a>
+            <a href="https://www.samsung.com/">
+                <img src="./images/samsung.png" alt="#">
+            </a>
+            <a href="https://www.blum.com/">
+                <img src="./images/blum.png" alt="#">
+            </a>
+        </div>
+        <div class="copyright">
+            <p>© 2021 Ringo</p>
+            <p>Дизайн сайту</p>
+        </div>
+    </div>
+</footer>
+  </body>
+</html>

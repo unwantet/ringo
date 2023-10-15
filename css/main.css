@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway/Raleway-Black.eot");
+  src: url("../fonts/raleway/Raleway-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/Raleway-BlackItalic.woff2") format("woff2"), url("../fonts/raleway/Raleway-BlackItalic.woff") format("woff"), url("../fonts/raleway/Raleway-BlackItalic.ttf") format("truetype");
+  font-weight: 400;
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: none;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  gap: 40px;
+}
+.nav__item {
+  color: #282B22;
+}
+.nav__item:hover {
+  cursor: pointer;
+  color: #AE7B3C;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+.nav__right :first-child {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav__small-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.nav__small-wrapper a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #282B22;
+}
+
+.nav__link {
+  padding: 8px 0 8px 8px;
+}
+.nav__link:hover svg path {
+  fill: #282B22;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .nav {
+    padding: 20px;
+  }
+  .nav__list {
+    display: none;
+  }
+  .nav__wrapper {
+    align-items: self-end;
+  }
+  .menu {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav {
+    padding: 15px 10px;
+  }
+  .nav__right {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px) {
+    .nav {
+        padding: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .nav {
+        padding: 20px;
+        &__list {
+            display: none;
+        }
+        &__wrapper {
+            align-items: self-end;
+        }
+    }
+
+    .menu {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav {
+        padding: 15px 10px;
+        &__right {
+            display: none;
+        }
+    }
+}
